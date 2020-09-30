@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^(.*)$ https://shop.easieliving.co.nz/collections/moh-products [R=301,L]
+</IfModule>
